@@ -1,0 +1,142 @@
+/* 
+  -----------------------------------
+  Horizontal Scroller Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 05 - Silverstone
+  -----------------------------------
+*/
+.p7HSM_showall {
+	color: #974256;
+}
+.p7HSM_showall:hover {
+	color: #000000;
+}
+.p7HSM05 {
+
+}
+/* viewport div */
+.p7HSM05 .p7HSM_vp_wrapper {
+	border: 0;
+}
+.p7HSM05 .p7HSM_vp {
+	position: relative;
+	width: 100%;
+}
+/* scrolling div */
+.p7HSM05 .p7HSM_sc {
+	position: relative;
+	left: 0px;
+}
+/* content div -  */
+.p7HSM05 .p7HSM_content {
+	padding: 0px;
+}
+.p7HSM05 .p7HSM_content p {
+	margin: 0;
+}
+.p7HSM05 .p7HSM_content img {
+	border: 0;
+}
+/*Wrapper for all tools*/
+.p7HSM05 .p7HSMtoolbar {
+	background-image: url(img/p7HSM05_dbbg.jpg);
+	background-repeat: repeat-x;
+	background-color: #CCCCCC;
+	width: 100%;
+	display:none;
+}
+/*First Buttom*/
+.p7HSM05 .toolbar_left {
+	width: 47px;
+	float: left;
+}
+.p7HSM05 .scroll_left {
+	float: left;
+	width: 25px;
+}
+.p7HSM05 .scroll_left a {
+	background-image: url(img/p7HSM05_dbleft.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+/*SECOND BUTTON*/
+.p7HSM05 .pauseplay {
+	width: 22px;
+	float: left;
+}
+.p7HSM05 .pause {
+	background-image: url(img/p7HSM05_psplay.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	width: 22px;
+}
+.p7HSM05 .play {
+	background-image: url(img/p7HSM05_psplay.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	width: 22px;
+	background-position: 0px -50px;
+}
+/*Drag Bar and Button*/
+
+.p7HSM05 .p7HSMdragchannel {
+	display: none;
+	
+}
+.p7HSM05 .p7HSMdragchannel em, .toolbar_left em, .toolbar_right em {
+	display: none;
+}
+.p7HSM05 .dragbar {
+	position: relative;
+	float: none;
+	z-index: 1;
+}
+.p7HSM05 .dragbutton {
+	position: absolute;
+	z-index: 2;
+	height: 4px;
+	width: 8px;
+	background-image: url(img/p7HSM05_dbdrag.gif);
+	background-repeat: no-repeat;
+}
+/*Third Button*/
+.p7HSM05 .toolbar_right {
+	float: right;
+	width: 25px;
+}
+.p7HSM05 .scroll_right {
+	width: 25px;
+	float: right;
+}
+.p7HSM05 .scroll_right a {
+	background-image: url(img/p7HSM05_dbright.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+/*Toolbar Hover classes*/
+.p7HSM05 .scroll_left a:hover, .p7HSM05 .scroll_right a:hover, .p7HSM05 .pause:hover {
+	background-position: 0px -25px;
+}
+.p7HSM05 .play:hover {
+	background-position: 0px -75px;
+}
+.p7HSM05 .clearfloats {
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 0;
+}
+.p7HSM_sc table {
+	table-layout:auto;
+}
+.p7HSM05 td {
+	border: 0 !important;
+}
