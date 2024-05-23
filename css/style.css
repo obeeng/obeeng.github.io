@@ -2830,7 +2830,7 @@ div.forum-posts-container div.post-list .container {
 	overflow: hidden;
 }
 
-.3tonne {
+._3tonne {
 	height: 180px;
 	width: 240px;
 	border: thin solid #915126;
@@ -2838,7 +2838,7 @@ div.forum-posts-container div.post-list .container {
 	overflow: hidden;
 }
 
-.8tonne {
+._8tonne {
 	height: 180px;
 	width: 240px;
 	border: thin solid #915126;
@@ -2847,7 +2847,7 @@ div.forum-posts-container div.post-list .container {
 	float: left;
 }
 
-.12tonne {
+._12tonne {
 	height: 320px;
 	width: 240px;
 	border: thin solid #915126;
