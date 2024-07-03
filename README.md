@@ -17,6 +17,7 @@ obeeng.com.au. 	14400 	AAAA 	2606:50c0:8000::153
 obeeng.com.au. 	14400 	AAAA 	2606:50c0:8001::153
 obeeng.com.au. 	14400 	AAAA 	2606:50c0:8002::153
 obeeng.com.au. 	14400 	AAAA 	2606:50c0:8003::153
+_github-pages-challenge-obeeng.obeeng.com.au. 	14400 	TXT 	6dd88f1007fcf9445a9ab6363970a9
 ```
 
 # Setup BIMI
